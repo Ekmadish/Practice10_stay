@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "firstName": "Tom",
+        "lastName": "Cruise",
+        "photo": "https://www.sustainable-bus.com/wp-content/uploads/2019/12/scania-bus4.jpg"
+      },
+      {
+        "id": "2",
+        "firstName": "Maria",
+        "lastName": "Sharapova",
+        "photo": "https://www.sustainable-bus.com/wp-content/uploads/2019/12/scania-bus4.jpg"
+      },    
+      
+      {
+        "id": "3",
+        "firstName": "James",
+        "lastName": "Bond",
+        "photo": "https://www.sustainable-bus.com/wp-content/uploads/2019/12/scania-bus4.jpg"
+      }
+
+]
