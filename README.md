@@ -1,3 +1,16 @@
-# Practice 11
+### Practice 10
 
-![20-11-04-16-20-12](https://user-images.githubusercontent.com/44582949/98100719-75dbf880-1ebb-11eb-8012-5e24d48e4c5a.gif)
+### Practice 11 
+
+### Practice 12
+![1](https://user-images.githubusercontent.com/44582949/99914277-63b8e180-2d26-11eb-8d66-ce630eaff18b.gif)
+
+
+
+
+****************************************************************************
+| Version | README |
+| ------ | ------ |
+| Practice-10 | https://github.com/Ekmadish/Practice10_stay |
+| Practice-11 | https://github.com/Ekmadish/Practice10_stay/tree/Practice-11|
+| Practice-11 | https://github.com/Ekmadish/Practice10_stay/tree/Practice-12|
