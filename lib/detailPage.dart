@@ -406,7 +406,7 @@ void _modalBottomSheetMenu(BuildContext c) {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18.0),
                     side: BorderSide(color: Colors.red)),
-                onPressed: () {},
+                onPressed: () => showAlertDialog(c),
                 child: Text(
                   "Cancel purchase",
                   style: TextStyle(fontSize: 20),
@@ -416,4 +416,38 @@ void _modalBottomSheetMenu(BuildContext c) {
           ),
         );
       });
+}
+
+showAlertDialog(BuildContext context) {
+  // set up the button
+  Widget okButton = FlatButton(
+    child: Text("OK"),
+    onPressed: () {},
+  );
+
+  // set up the AlertDialog
+  AlertDialog alert = AlertDialog(
+    contentPadding: EdgeInsets.all(20),
+    title: Center(child: Text("Cancel")),
+    content: Text("Cancel order ?"),
+    actionsPadding: EdgeInsets.only(right: 20, left: 20),
+    titlePadding: EdgeInsets.all(20),
+    actions: [
+      // okButton,
+      RaisedButton.icon(
+          onPressed: null, icon: Icon(Icons.delete), label: Text("delete")),
+      // Divider(color: Colors.white),
+
+      RaisedButton.icon(
+          onPressed: null, icon: Icon(Icons.cancel), label: Text("Cancel"))
+    ],
+  );
+
+  // show the dialog
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return alert;
+    },
+  );
 }
