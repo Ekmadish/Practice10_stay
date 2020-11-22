@@ -435,11 +435,17 @@ showAlertDialog(BuildContext context) {
     actions: [
       // okButton,
       RaisedButton.icon(
-          onPressed: null, icon: Icon(Icons.delete), label: Text("delete")),
+          onPressed: () {
+            Fluttertoast.showToast(msg: "Ok");
+          },
+          icon: Icon(Icons.delete),
+          label: Text("delete")),
       // Divider(color: Colors.white),
 
       RaisedButton.icon(
-          onPressed: null, icon: Icon(Icons.cancel), label: Text("Cancel"))
+          onPressed: () => Navigator.pop(context),
+          icon: Icon(Icons.cancel),
+          label: Text("Cancel"))
     ],
   );
 
