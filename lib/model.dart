@@ -3,5 +3,15 @@ class Bus {
   String name;
   String info;
   String url;
-  Bus({this.id, this.info, this.name, this.url});
+  String type;
+  String time;
+  String stationName;
+  Bus(
+      {this.id,
+      this.info,
+      this.name,
+      this.url,
+      this.type,
+      this.stationName,
+      this.time});
 }
